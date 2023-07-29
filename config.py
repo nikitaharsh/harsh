@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID",))
-API_HASH = getenv("API_HASH",)
+API_ID = int(getenv("API_ID",11550403"))
+API_HASH = getenv("API_HASH",b77c85d4e2ec851bc69613a7cffd567d")
 
-BOT_TOKEN = getenv("BOT_TOKEN",)
+BOT_TOKEN = getenv("BOT_TOKEN",6220610812:AAGnEcUUXXOUp2ozXAuEVGtpXMB-OaQHnDw")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI",mongodb+srv://vikashgup87:EDRIe3bdEq85Pdpl@cluster0.pvoygcu.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "180")
@@ -22,27 +22,27 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001846148825"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Iro x ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "harsh x ᴍᴜsɪᴄ")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6045293810").split())
+    map(int, getenv("OWNER_ID", "6387600212").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/shaeep043/Iro_x")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/nikitaharsh/harsh")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+    "SUPPORT_CHANNEL", " https://t.me/+FhQ62ZERCqdiNzNl ")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/iro_x_support")
+    "SUPPORT_GROUP", " https://t.me/+FhQ62ZERCqdiNzNl ")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION",BQCowwmgL7X3L3Syr3NIs4GM993yIrh4B7jr519SGgjE2sh9x2wgeFkp8dkvK3n0mhmn1y8Qd3VMWDDpCIXVSrld4C2Q4jnmOgPu1rpMzrY8dnEkryYdRU1Da_ZSqXIWTDG9FHu0FQQwDgL_8rg1n8paP2mlmeOrX5VLlwwkZLKHjL6iHhHXbuHh1bX_kGrBC6GaWXxzmG_E9p389OeQZ1f4xv6B1QNMfMgbp_rYQ2_Mgh76WhpnRb8AWtSOL5XziowOFV_ZsecfEZZp7nKS017su6yvTASCFriAxOZtjkAjriuNnoEke6ySj-0EtFNPEOztnomQHLfty0wJwIc4ec73AAAAAX_hrE4A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -118,27 +118,27 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5fb1d6a6dd6555
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/eee5e3d03dbfcf6514595.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/df481726bdfafdbc7d85c.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/df481726bdfafdbc7d85c.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
@@ -148,7 +148,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/0f836f9da03a9dfa73769.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
